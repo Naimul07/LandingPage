@@ -2,7 +2,7 @@ import Image from 'next/image'
 import { IoIosArrowDown } from "react-icons/io";
 const Navbar = () => {
     return (
-        <div className='py-4 border-b bg-white'>
+        <div className='py-4 border-b bg-white sticky top-0 z-40'>
             <div className='container mx-auto'>
                 <nav className='flex justify-between items-center px-6'>
 
@@ -13,7 +13,7 @@ const Navbar = () => {
 
                     <ul className='flex gap-6 text-gray-700 text-sm'>
                         <li className="cursor-pointer hover:text-blue-600 flex items-center">Features <span><IoIosArrowDown /></span></li>
-                        <li className="cursor-pointer hover:text-blue-600">Pricing</li>
+                        <li className="cursor-pointer hover:text-blue-600"><a href="/price"> Pricing</a></li>
                         <li className="cursor-pointer hover:text-blue-600 flex items-center">Solutions <span><IoIosArrowDown /></span></li>
                         <li className="cursor-pointer hover:text-blue-600 flex items-center">Resources <span><IoIosArrowDown /></span></li>
                         <li className="cursor-pointer hover:text-blue-600">Find Professionals</li>

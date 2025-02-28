@@ -101,7 +101,7 @@ export default Card
 
 function FeatureCard({ title, description, imageSrc, bgColor, textColor }) {
     return (
-        <div className={`${bgColor} ${textColor} sticky top-0 p-8 rounded-xl flex flex-col md:flex-row items-center justify-center mb-8 shadow-lg`}>
+        <div className={`${bgColor} ${textColor} sticky top-24 p-8 rounded-xl flex flex-col md:flex-row items-center justify-center mb-8 shadow-lg`}>
             <div className="md:w-1/2">
                 <h2 className="text-2xl font-bold">{title}</h2>
                 <p className="mt-4 text-sm font-normal">{description}</p>
