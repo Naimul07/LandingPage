@@ -25,11 +25,8 @@ const Apoinment = () => {
                     </div>
 
                     <div className="flex flex-col gap-4 mt-4">
-                        <div>
-
-
-                        </div>
-                        <div className='flex justify-center gap-2'>
+                      
+                        <div className='flex flex-wrap justify-center gap-2'>
                             {categories.map((cat, index) => (
                                 <button key={index} className="px-4 py-1 text-sm rounded-full border bg-white text-gray-700 flex justify-between items-center gap-4">
                                     {cat} <RxCross2 />

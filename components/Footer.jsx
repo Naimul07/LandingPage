@@ -3,8 +3,8 @@ import { FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
 const Footer = () => {
     return (
-        <footer className="bg-teal-800 text-white py-10">
-            <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-10">
+        <footer className="bg-teal-800 text-white p-4 md:py-10 md:px-20">
+            <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-10">
                 <div>
                     <h3 className="text-lg font-semibold border-b-2 py-1 border-white inline-block mb-4">For Customers</h3>
                     <ul className="font-light">
@@ -17,8 +17,8 @@ const Footer = () => {
                         <li className='mb-1'><a href="#">Resources</a></li>
                     </ul>
                 </div>
-                <div>
-                    <h3 className="text-lg font-semibold border-b-2 py-1 border-white inline-block mb-4">For Practitioners</h3>
+                <div className="hidden md:block">
+                    <h3 className="inline-block text-lg font-semibold border-b-2 py-1 border-white  mb-4">For Practitioners</h3>
                     <ul>
                         <li className='mb-1'><a href="#">Profile Setup</a></li>
                         <li className='mb-1'><a href="#">Organization Setup</a></li>
@@ -31,8 +31,8 @@ const Footer = () => {
                         <li className='mb-1'><a href="#">Business Tools</a></li>
                     </ul>
                 </div>
-                <div>
-                    <h3 className="text-lg font-semibold border-b-2 py-1 border-white inline-block mb-4">Resources</h3>
+                <div className="hidden md:block">
+                    <h3 className="inline-block text-lg font-semibold border-b-2 py-1 border-white mb-4">Resources</h3>
                     <ul>
                         <li className='mb-1'><a href="#">Plans</a></li>
                         <li className='mb-1'><a href="#">Blog</a></li>

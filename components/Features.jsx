@@ -18,7 +18,7 @@ const Features = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                     <div className="bg-[#25646C] shadow-md rounded-2xl p-6">
                         <div className="flex flex-col gap-6 mb-4">
-                            <Image src='/feature/Frame 1000003858.png' alt='logo' height={30} width={230} />
+                            <Image src='/feature/Frame 1000003858.png' alt='logo' height={40} width={430} />
                             <h3 className="text-xl font-semibold">Schedule & Booking</h3>
                         </div>
                         <p className="text-sm text-gray-300">
@@ -27,7 +27,7 @@ const Features = () => {
                     </div>
                     <div className="bg-[#25646C] shadow-md rounded-2xl p-6">
                         <div className="flex flex-col gap-6 mb-4">
-                            <Image src='/feature/Frame 1000003859.png' alt='logo' height={30} width={230} />
+                            <Image src='/feature/Frame 1000003859.png' alt='logo' height={40} width={430} />
                             <h3 className="text-xl font-semibold">Live Consultant</h3>
                         </div>
                         <p className="text-sm text-gray-300">
@@ -36,7 +36,7 @@ const Features = () => {
                     </div>
                     <div className="bg-[#25646C] shadow-md rounded-2xl p-6">
                         <div className="flex flex-col gap-6 mb-4">
-                            <Image src='/feature/Frame 1000003858 (2).png' alt='logo' height={30} width={230} />
+                            <Image src='/feature/Frame 1000003858 (2).png' alt='logo' height={40} width={430} />
 
                             <h3 className="text-xl font-semibold">Payments</h3>
                         </div>
@@ -46,7 +46,7 @@ const Features = () => {
                     </div>
                     <div className="bg-[#25646C] shadow-md rounded-2xl p-6">
                         <div className="flex flex-col gap-6 mb-4">
-                            <Image src='/feature/Frame 1000003858 (3).png' alt='logo' height={30} width={230} />
+                            <Image src='/feature/Frame 1000003858 (3).png' alt='logo' height={40} width={430} />
 
                             <h3 className="text-xl font-semibold">Customer Tracking</h3>
                         </div>
@@ -56,7 +56,7 @@ const Features = () => {
                     </div>
                     <div className="bg-[#25646C] shadow-md rounded-2xl p-6">
                         <div className="flex flex-col gap-6 mb-4">
-                            <Image src='/feature/Frame 1000003858 (4).png' alt='logo' height={30} width={230} />
+                            <Image src='/feature/Frame 1000003858 (4).png' alt='logo' height={40} width={430} />
 
                             <h3 className="text-xl font-semibold">Notification</h3>
                         </div>
@@ -66,7 +66,7 @@ const Features = () => {
                     </div>
                     <div className="bg-[#25646C] shadow-md rounded-2xl p-6">
                         <div className="flex flex-col gap-6 mb-4">
-                            <Image src='/feature/Frame 1000003858 (5).png' alt='logo' height={30} width={230} />
+                            <Image src='/feature/Frame 1000003858 (5).png' alt='logo' height={40} width={430} />
 
                             <h3 className="text-xl font-semibold">Website Builder</h3>
                         </div>
@@ -76,7 +76,7 @@ const Features = () => {
                     </div>
                     <div className="bg-[#25646C] shadow-md rounded-2xl p-6">
                         <div className="flex flex-col gap-6 mb-4">
-                            <Image src='/feature/Frame 1000003858 (6).png' alt='logo' height={30} width={230} />
+                            <Image src='/feature/Frame 1000003858 (6).png' alt='logo' height={40} width={430} />
 
                             <h3 className="text-xl font-semibold">Reports</h3>
                         </div>
@@ -86,7 +86,7 @@ const Features = () => {
                     </div>
                     <div className="bg-[#25646C] shadow-md rounded-2xl p-6">
                         <div className="flex flex-col gap-6 mb-4">
-                            <Image src='/feature/Frame 1000003858 (7).png' alt='logo' height={30} width={230} />
+                            <Image src='/feature/Frame 1000003858 (7).png' alt='logo' height={40} width={430} />
 
                             <h3 className="text-xl font-semibold">Resources</h3>
                         </div>

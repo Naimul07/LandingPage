@@ -5,10 +5,10 @@ const Hero = () => {
     return (
         <div>
             <section className="flex flex-col items-center text-center py-16 px-4 gap-6">
-                <h1 className="text-5xl font-extrabold text-gray-900">
+                <h1 className="text-3xl md:text-5xl font-extrabold text-gray-900">
                     Looking for a <span className="text-red-600">Business Solution</span>
                     <br />
-                    <div className='mt-4'>
+                    <div className='mt-2'>
                         <span className="text-red-600">for</span> appointments?
                     </div>
                 </h1>
@@ -36,12 +36,12 @@ const Hero = () => {
                             <span>Try one month for free</span>
                         </div>
                     </div>
-                    <Image src="/pointer.svg" alt='icon' height={100} width={40} className='absolute -left-16 top-1/2 transform -translate-y-1/2'/>
+                    <Image src="/pointer.svg" alt='icon' height={100} width={40} className='absolute -left-16 top-1/2 transform -translate-y-1/2' />
                 </div>
             </section>
             <section>
                 <div className='flex items-center justify-center'>
-                <Image src='/Hero.jpg' alt='image' height={500} width={850} />
+                    {/* <Image src='/Hero.jpg' alt='image' height={500} width={850} /> */}
 
                 </div>
             </section>

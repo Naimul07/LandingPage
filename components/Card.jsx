@@ -81,13 +81,14 @@ const Card = () => {
 
 
                     {
-                        featureData.map((item) => (
+                        featureData.map((item,i) => (
                             <FeatureCard
                                 title={item.title}
                                 description={item.description}
                                 imageSrc={item.imageSrc}
                                 bgColor={item.bgColor}
                                 textColor={item.textColor}
+                                key={i}
                             />
                         ))
                     }
@@ -106,7 +107,7 @@ function FeatureCard({ title, description, imageSrc, bgColor, textColor }) {
                 <h2 className="text-2xl font-bold">{title}</h2>
                 <p className="mt-4 text-sm font-normal">{description}</p>
                 <div className='flex items-center gap-2 mt-4'>
-                    <button className="py-2 underline">Learn more </button>
+                    <button className="py-2 my-2 underline">Learn more </button>
                     <CiShare1 />
                 </div>
 
