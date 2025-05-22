@@ -8,7 +8,7 @@ const Brand = () => {
         <div className='text-[#475467] font-light text-sm text-center pt-4'>
           Join 10k+ Users, 35+ Solo Practitioners and 60+ Businesses all over the World
         </div>
-        <div className='flex justify-between items-center mt-10'>
+        <div className='flex flex-wrap justify-between items-center mt-10'>
           <Image src="/brand/Aqua.png" alt='aqua' width={120} height={46} />
           <Image src="/brand/logo.png" alt='aqua' width={120} height={46} />
           <Image src="/brand/mucha_marketing.png" alt='aqua' width={120} height={46} />

@@ -64,7 +64,7 @@ const Navbar = () => {
 
                     {/* mobile view */}
                     {sidebar && (
-                        <div className=''>
+                        <div className='text-sm'>
                             
                             <ul className={`${sidebar ? 'fixed top-0 left-0 w-3/4 h-screen bg-white shadow-md z-50 p-6 space-y-4' : 'hidden'}`}>
                                 <div className='relative'>
