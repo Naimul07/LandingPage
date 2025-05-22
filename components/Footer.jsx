@@ -3,9 +3,9 @@ import { FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
 const Footer = () => {
     return (
-        <footer className="bg-teal-800 text-white p-4 md:py-10 md:px-20">
+        <footer className="bg-teal-800 text-white text-sm md:text-base p-4 md:py-10 md:px-20">
             <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-10">
-                <div>
+                <div className="mx-auto">
                     <h3 className="text-lg font-semibold border-b-2 py-1 border-white inline-block mb-4">For Customers</h3>
                     <ul className="font-light">
                         <li className='mb-1'><a href="#">Find a Practitioner</a></li>
@@ -44,7 +44,7 @@ const Footer = () => {
                         <li className='mb-1'><a href="#">Road Map</a></li>
                     </ul>
                 </div>
-                <div>
+                <div className="mx-auto">
                     <h3 className="text-lg font-semibold border-b-2 py-1 border-white mb-4 inline-block">Company</h3>
                     <ul>
                         <li className='mb-1'><a href="#">About Us</a></li>
