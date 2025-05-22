@@ -8,10 +8,10 @@ const Features = () => {
             <div className="container mx-auto">
                 <div className="text-center mb-10">
                     <h4 className="text-sm text-[#FDB022] my-4">features</h4>
-                    <h2 className="text-4xl mb-4 font-medium">
+                    <h2 className="text-2xl md:text-4xl mb-4 font-medium">
                         Solve all your needs with a single software solution
                     </h2>
-                    <p className="text-base max-w-3xl mx-auto">
+                    <p className="text-sm md:text-base max-w-3xl mx-auto">
                         This platform streamlines the entire customer management process, saving businesses time and increasing efficiency. Trusted by over 60+ businesses.
                     </p>
                 </div>
